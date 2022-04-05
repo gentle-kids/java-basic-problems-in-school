@@ -1,0 +1,36 @@
+
+public class TV {
+    private String brand;
+    private int size;
+    private String color;
+    void print(){
+        System.out.println(brand);
+        System.out.println(size);
+        System.out.println(color);
+    }
+    void channel(){
+        System.out.println("电视能调频道");
+    }
+    public TV(){
+        brand="三星";
+        size=60;
+        color="银色";
+    }
+    public TV(String b,int s,String c){
+        this.brand=b;
+        this.size=s;
+        this.color=c;
+    }
+    public static void main(String[] args){
+        TV t1=new TV();
+        TV t2=new TV();
+        t2.brand="索尼";
+        t2.size=55;
+        t2.color="黑色";
+        t1.channel();
+        t1.print();
+        t2.channel();
+        t2.print();
+    }
+
+}

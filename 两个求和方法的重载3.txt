@@ -1,0 +1,19 @@
+public class OverLoadStu3 {
+	public static double add(int a,double b){
+	    return a+b;
+	}
+	public static double add(double a,int b){
+	    return 2*(a+b);
+	}
+	//定义方法
+	
+	
+	
+	public static void main(String[] args) {
+		//调用方法
+		double first=add(2,3.5);
+		double second=add(3.5,2);
+		System.out.println("整数和实数的和为:"+first);
+		System.out.println("实数和整数的和为:"+second);
+	}
+}

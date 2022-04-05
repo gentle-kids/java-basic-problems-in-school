@@ -1,0 +1,13 @@
+
+public class OverLoadStu {
+    public static int add(int a,int b){
+        return a+b;
+    }
+    public static int add(int a,int b,int c){
+        return a+b+c;
+    }
+	public static void main(String[] args) {
+		System.out.println("两个整数的和为:"+add(2,3));
+		System.out.println("三个整数的和为:"+add(2,3,4));
+	}
+}

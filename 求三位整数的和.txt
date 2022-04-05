@@ -1,0 +1,18 @@
+public class NumSumStu {
+    public static int Sum(int a){
+        int i=a/100;
+        int j=a/10%10;
+        int k=a%10;
+        return i+j+k;
+    }
+
+	//此处添加方法
+	
+	
+	
+	public static void main(String[] args) {
+		//调用函数输出结果
+		int num=Sum(347);
+		System.out.println("和为："+num);
+	}
+}

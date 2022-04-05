@@ -1,0 +1,16 @@
+
+public class MountainStu {
+	public static int Mountain(){
+		int day=0;
+		for(int height=100;height>0;){
+		    height-=5;
+		    day++;
+		}
+		//编写方法
+		return day;
+	}
+	public static void main(String[] args) {
+	    int num=Mountain();
+		System.out.println(num+"天");
+	}
+}

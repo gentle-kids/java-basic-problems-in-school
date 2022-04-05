@@ -1,0 +1,9 @@
+
+public class Rectangle2Stu {
+	public static void main(String[] args) {
+	    int length=8;
+	    int width=5;
+		System.out.println("矩形的面积是：" + length*width);
+		System.out.println("矩形的周长是：" + 2*(length+width));
+	}
+}

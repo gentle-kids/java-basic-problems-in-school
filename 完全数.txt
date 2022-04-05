@@ -1,0 +1,23 @@
+public class PerfectNumberStu {
+    public static void PerfectNum(){
+	    for(int i=2;i<200;i++){
+	        int m=0;
+	        for(int j=1;j<=i/2+1;j++){
+	            if(i%j==0){
+	                m+=j;
+	            }
+	        }
+	        if(m==i){
+	        System.out.println(i);
+	        }
+	    }
+    }
+	//定义方法
+	
+	
+	
+	public static void main(String[] args) {
+		//调用方法
+		PerfectNum();
+	}
+}

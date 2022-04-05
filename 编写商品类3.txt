@@ -1,0 +1,29 @@
+
+public class Product {
+    private String name;
+    private String id;
+    private double price;
+    void computeDiscount(double percent){
+        System.out.println(price*percent);
+    }
+    public Product(){
+        name="投影仪";
+        id="00102";
+        price=8600.0;
+    }
+    public Product(String n,String i,double p){
+        this.name=n;
+        this.id=i;
+        this.price=p;
+    }
+    public static void main(String[] args){
+        Product p1=new Product();
+        Product p2=new Product();
+        p2.name="打印机";
+        p2.id="00101";
+        p2.price=1200.0;
+        p1.computeDiscount(0.8);
+        p2.computeDiscount(0.8);
+    }
+
+}

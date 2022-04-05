@@ -1,0 +1,19 @@
+
+public class Book {
+    public String name;
+    public String author;
+    public double price;
+    void show(){
+        System.out.println("书名："+name);
+        System.out.println("作者："+author);
+        System.out.println("价格："+price);
+    }
+    public static void main(String[] args){
+        Book b1=new Book();
+        b1.name="西游记";
+        b1.author="吴承恩";
+        b1.price=120;
+        b1.show();
+    }
+
+}
