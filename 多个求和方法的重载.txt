@@ -1,0 +1,22 @@
+public class OverLoadStu4 {
+	
+	//定义方法
+	public static int add(int a,int b){
+	    return a+b;
+	}
+	public static double add(double a,double b){
+	    return a+b;
+	}
+	public static int add(int a,int b,int c){
+	    return a+b+c;
+	}
+	public static void main(String[] args) {
+		//调用方法
+		int first=add(2,3);
+		double second=add(2.5,3.9);
+		int third=add(2,3,4);
+		System.out.println("两个整数的和为:"+first);
+		System.out.println("两个实数的和为:"+second);
+		System.out.println("三个整数的和为:"+third);
+	}
+}

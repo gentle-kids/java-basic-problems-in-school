@@ -1,0 +1,19 @@
+
+public class ChangeStu {
+	public static void main(String[] args) {
+		int i,j,k;
+		//i,j,k分别为5、10、20元零钱的数量；
+		for(i=0;i<=20;i++){
+		    for(j=0;j<=10;j++){
+		        for(k=0;k<=5;k++){
+		            if((5*i+10*j+20*k)==100){
+		                System.out.println(i+","+j+","+k);
+		            }
+		        }
+		    }
+		}
+						//System.out.println(i+","+j+","+k);
+				
+	}
+}
+

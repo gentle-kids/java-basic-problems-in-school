@@ -1,0 +1,29 @@
+
+public class Employee {
+	private String name;
+	private int age;
+	private double salary;
+	void raise(double p){
+	    System.out.println(salary+p);
+	}
+	public Employee(){
+	    name="Lucy";
+	    age=26;
+	    salary=3500.0;
+	}
+	public Employee(String n,int a,double s){
+	    this.name=n;
+	    this.age=a;
+	    this.salary=s;
+	}
+	public static void main(String[] args) {
+	    Employee e1=new Employee();
+	    Employee e2=new Employee();
+	    e2.name="LiLei";
+	    e2.age=30;
+	    e2.salary=4500.0;
+	    e1.raise(200.0);
+	    e2.raise(200.0);
+	    /* code */
+	}
+}

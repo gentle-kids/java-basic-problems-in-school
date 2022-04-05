@@ -1,0 +1,16 @@
+public class Break2Stu {
+	public static void main(String[] args) {
+		int i=1;
+		int n=500;
+		int sum=0;
+		for(;i<=n;i++){
+		    sum+=i;
+		    if(sum>1000){
+		        break;
+		    }
+		}
+
+
+		System.out.println(i);
+	}
+}

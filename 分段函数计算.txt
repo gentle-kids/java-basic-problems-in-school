@@ -1,0 +1,15 @@
+public class FunctionStu {
+	public static void main(String[] args) {
+		int x=10,y;
+		if(x<=0){
+		    y=x*3+5;
+		}
+		else if(x>=100){
+		    y=x*x-3*x-10;
+		}
+		else{
+		    y=x;
+		}
+		System.out.println("y的值为:"+y);    
+	}
+}

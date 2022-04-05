@@ -1,0 +1,10 @@
+public class WhileStu {
+	public static void main(String[] args) {
+		double length=1000.0;
+		int day=0;
+		while(length>5.0){
+		    day++;
+		    length/=2;}
+		System.out.println("第"+day+"天的长度为"+length);
+	}
+}
